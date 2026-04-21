@@ -149,6 +149,15 @@
     <script src="assets/js/form-scripts.js"></script>
     <script src="assets/js/pjax.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <audio id="music" loop>
+  <source src="nhac.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+document.addEventListener("click", function() {
+  document.getElementById("music").play();
+}, { once: true });
+</script>
 </body>
 
 </html>

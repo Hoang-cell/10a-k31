@@ -92,11 +92,6 @@
     <!-- FOOTER -->
     <!-- JS -->
      <footer>
-        <div class="container-fluid">
-            <div class="wrap-footer-content">
-                <span>&copy;K31-THPT Bình Minh<i class="fa fa-glass"></i></span>
-            </div>
-        </div>
     </footer>
     <script src="assets/js/jquery-3.2.1.min.js"></script>
     <script src="assets/js/imagesloaded.pkgd.min.js"></script>
@@ -112,6 +107,15 @@
     <script src="assets/js/form-scripts.js"></script>
     <script src="assets/js/pjax.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <audio id="music" loop>
+  <source src="nhac.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+document.addEventListener("click", function() {
+  document.getElementById("music").play();
+}, { once: true });
+</script>
 </body>
 </html>
 
