@@ -1141,3 +1141,33 @@ textarea[placeholder="Enter your message"]::-moz-placeholder {
     padding-bottom: 20px;
 }
 
+/* ===== ICON SOCIAL ===== */
+.social-links {
+    margin-left: auto;      /* 🔥 đẩy sang phải */
+    display: flex;
+    align-items: center;
+    gap: 12px;              /* 🔥 khoảng cách giữa icon */
+}
+
+/* ===== LINK ICON ===== */
+.social-links a {
+    font-size: 22px;
+    color: #ccc;            /* 🔥 trắng xám */
+    transition: 0.3s;
+}
+
+/* ===== HOVER ===== */
+.social-links a:hover {
+    color: #fff;            /* 🔥 sáng lên khi hover */
+    transform: scale(1.1);  /* 🔥 phóng nhẹ */
+}
+
+.wrap-footer-content1 {
+    display: flex;
+    align-items: center;
+    width: 100%; /* 🔥 bắt buộc */
+}
+
+.container-fluid1 {
+    padding-right: 0;
+}
